@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<manifest identifier="oLEFI7bAV0lrj4QA71zhfbvo9mLnxpnGZBo5OiiJ" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Critical Thinking Skills</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Critical Thinking Skills</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/eFJ2eYQAukhp42bN-montserrat-regular-webfont.woff" />
+<file href="scormcontent/lib/fonts/SmPXhfvG9rV0K9op-montserrat-italic-webfont.woff" />
+<file href="scormcontent/lib/fonts/9E4cgQvlZ-D_9Siy-montserrat-bold-webfont.woff" />
+<file href="scormcontent/assets/mCGyhNNHFsIjBIDd_small.png" />
+<file href="scormcontent/assets/MtI2wj1SAsr87Cwh_JXNaRHy0pyLaJ5EI.png" />
+<file href="scormcontent/assets/KalPIxwy-9xOu7bw_yRcJ7WXQG2Yv3LR2.png" />
+<file href="scormcontent/assets/0o5tBQmSu4piid11_QNyDSaYhcp9QVLyz-stock-image.jpg" />
+<file href="scormcontent/assets/4YhWlsevxhfLbR2F_FGcnPM5GJPTnDeM--stock-image.jpg" />
+<file href="scormcontent/assets/LWnqIs1V-XNSsI27_SCLy4evEPvE10o6I.png" />
+<file href="scormcontent/assets/8PrKbJLIhZ_y1B4T_BMYVhHVvnASRMGPu.jpg" />
+<file href="scormcontent/assets/-ABvN1hGtJ8SQ2Bs_transcoded-jUsuTm_5VFzmCAGL-Using%20Brain%20Teasers%20to%20Build%20Critical%20Thinking%20Skills-00001.png" />
+<file href="scormcontent/assets/qH5BIDPjNenJBLK3_transcoded-jUsuTm_5VFzmCAGL-Using%20Brain%20Teasers%20to%20Build%20Critical%20Thinking%20Skills.mp4" />
+<file href="scormcontent/assets/IDBtY0tuLBPq5S52_MfLI_nL7J5cJmehv.jpg" />
+<file href="scormcontent/assets/HkOiQUPqg1N8dNqT_048q2mYwa4TrS3FR-stock-image.jpg" />
+<file href="scormcontent/assets/mdimPBkwdFTB0AIL_IiRxSh5reGhGej78.png" />
+<file href="scormcontent/assets/rQLHs29f8p3pqHbu_v466bF993uuKo-Fp.jpg" />
+<file href="scormcontent/assets/Aaytvmal0ZAhiAqL_m_n7ImAyra5Fav7t-stock-image.jpg" />
+<file href="scormcontent/assets/SKEbS6wzveCpPB7l_xbqRl2lY3dZEImVp.jpg" />
+<file href="scormcontent/assets/AC7TR6QeRAXT0Vlg_transcoded-t6PMI8cLHCVWuiZp-5%20tricks%20for%20critical%20thinking-00001.png" />
+<file href="scormcontent/assets/00bUaoMxQW4C7JpX_transcoded-t6PMI8cLHCVWuiZp-5%20tricks%20for%20critical%20thinking.mp4" />
+<file href="scormcontent/assets/WoHre1nuKe7CJUbM_l0zsZjga3s0NXOYU.jpg" />
+<file href="scormcontent/assets/aOuwjOlWrjnLmQqr_kDhtT6AvHxlZhi1k-stock-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
